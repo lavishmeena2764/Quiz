@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(107,205,254);
+    align-content: center;
+    padding:0;
+    margin:0;
+}
+#mainBox,.questions1,.questions2,.questions3,.questions4,.questions5,#endBox{
+    background-color: rgb(180,230,253);
+    border:1px solid rgb(79,112,131);
+    margin-top:10%;
+    margin-left:18%;
+    width:60%;
+    height:40%;
+    padding:20px;
+    box-shadow: 0 0 5px 2px white;
+    border-radius:5px;
+    position:fixed;
+}
+h1{
+    color:rgb(0, 33, 117);
+}
+#lbl1{
+    font-size: larger;
+}
+#inputName{
+    background-color: rgb(224, 242, 254);
+    border:none;
+    border-radius: 3px;
+}
+#btn1{
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(11,17,137);
+    width:80px;
+    height:30px;
+    color:white;
+}
+.nq1,.nq2,.nq3,.nq4,.nq5{
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(11,17,137);
+    width:100px;
+    height:30px;
+    color:white;
+}
+.q{
+    width:50%;
+    background-color:rgb(11,17,137);
+    border-radius:15px;
+    color:white;
+    position: relative;
+}
+.option{
+    background-color: rgb(217,244,255);
+    width:30%;
+    border-radius: 10px;
+    display:inline-block;
+}
+.questions1,.questions2,.questions3,.questions4,.questions5,#endBox{
+    visibility:hidden;
+}
+#name{
+    background-color: rgb(11,17,137);
+    color:white;
+    font-size:40px;
+    right:11%;
+    height:40px;
+    padding:5px;
+    position: absolute;
+    display:inline-block;
+    visibility: hidden;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+#topScore{
+    background-color: rgb(11,17,137);
+    color:white;
+    height:40px;
+    width:10%;
+    padding:5px;
+    position:absolute;
+    display:inline-block;
+    visibility: hidden;
+    top:0;
+    right:0;
+}
+#fs{
+    color:rgb(234, 0, 255);
+}
+#topHeader{
+    height:50px;
+    color:white;
+    top:0px;
+    left:0px;
+    padding-top:0;
+    background-color:white;
+}
+hr{
+    margin:0;
+    top:0;
+}
+#logo{
+    margin-left:10px;
+    display:inline-block;
+}
+#topHome{
+    background-color: rgb(11,17,137);
+    font-size:40px;
+    height:50px;
+    width:120px;
+    top:0;
+    color:white;
+    border:none;
+    display:inline-block;
+    position:absolute;
+    margin-left:10px;
+}
